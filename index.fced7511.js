@@ -1,0 +1,2 @@
+document.addEventListener("DOMContentLoaded",function(){document.querySelectorAll("form input").forEach(function(e){var t=e.getAttribute("name");if(t){var n=document.createElement("label");n.classList.add("field-label"),n.setAttribute("for",e.id),n.textContent=t.charAt(0).toUpperCase()+t.slice(1),e.setAttribute("placeholder",n.textContent),e.parentElement.insertBefore(n,e)}})});
+//# sourceMappingURL=index.fced7511.js.map
